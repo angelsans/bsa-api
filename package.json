@@ -1,0 +1,42 @@
+{
+  "name": "bsa-api",
+  "version": "1.0.0",
+  "description": "Project solution for BSA interview",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelsans/bsa-api.git"
+  },
+  "author": "angel.sansores@theksquaregroup.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelsans/bsa-api/issues"
+  },
+  "homepage": "https://github.com/angelsans/bsa-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.1.5",
+    "joi": "^17.9.2",
+    "mongoose": "^7.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "jest": "^25.1.0",
+    "mongodb-memory-server": "^8.12.2",
+    "nodemon": "^2.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
